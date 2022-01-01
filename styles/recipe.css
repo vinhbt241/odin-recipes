@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/photos/dark-wooden-table-background-picture-id1023417624?k=20&m=1023417624&s=170667a&w=0&h=ywBukD5j0TEyTL5qUPZliE7qYymk7nD11LTKZJ4CQyM=");
+    background-size: cover;
+}
+
+div {
+    width: 50%;
+    background-color: rgb(214, 167, 39);
+    padding: 0 50px;
+    font-size: 24px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

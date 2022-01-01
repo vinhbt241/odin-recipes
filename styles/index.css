@@ -3,17 +3,17 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-image: url("https://media.istockphoto.com/photos/dark-wooden-table-background-picture-id1023417624?k=20&m=1023417624&s=170667a&w=0&h=ywBukD5j0TEyTL5qUPZliE7qYymk7nD11LTKZJ4CQyM=");
-    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 #display {
-    width: 70%;
+    width: 55%;
     background: rgb(214, 167, 39);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-radius: 30px;
-    margin: auto;
     text-align: center;
     height: 100vh;
     font-size: 50px;
